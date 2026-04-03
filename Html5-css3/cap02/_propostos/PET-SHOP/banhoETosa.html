@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banho e Tosa</title>
+</head>
+<body>
+    <a href="Index.html">Home</a>
+    <h1>Agendamento para banho e tosa</h1>
+    <h2>Faça o seu agendamento com pelo menos 48 horas de antecedência</h2>
+
+    <fieldset>
+    <legend>Identificação do dono do animal</legend>
+    <br>
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" name="endereço" id="endereço" placeholder="Digite o nome completo do dono do animal">
+    </div>
+    <br>
+    <div>
+        <label for="endereço">Endereço:</label>
+        <input type="" name="endereço" id="endereço" placeholder="Digite o endereço">
+    </div>
+    <br>
+    <div>
+        <label for="cep">CEP</label>
+        <input type="number" name="cep" id="endereço" placeholder="XXXXX-XXX">
+    </div>
+    <br>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Digite o endereço de email">
+    </div>
+    <br>
+    <div>
+        <label for="tel">Tel/Cel:</label>
+        <input type="number" name="tel" id="tel" placeholder="99 99999-9999">
+    </div>
+</fieldset>
+<br>
+<form action="curiosidades.html">
+
+    <fieldset>
+        <legend>Animal</legend>
+        <br>
+        <div>
+            <label for="nomeA">Nome:</label>
+            <input type="text" name="nomeA" id="nomeA" placeholder="Digite o nome do animal"><br>
+            <br>
+            <label for="porteCao">Porte do cão: </label>
+            <input type="radio" name="sexo" id="Masculino">
+            <label for="">Pequeno</label>
+
+
+            <input type="radio" name="sexo" id="Feminino">
+            <label for="">Médio</label>
+
+
+            <input type="radio" name="sexo" id="Outros">
+            <label for="">Grande</label>
+            <br><br>
+
+            <label for="tosa">Tipo de tosa</label>
+            <select name="" id="">
+                <option value="" hidden>nenhuma</option>
+                <option value="">Opção 1</option>
+                <option value="">Opção 2</option>
+                <option value="">Opção 3</option>
+            </select>
+            <br><br>
+            <label for="obs">Observação: </label>
+            <textarea placeholder="Digite alguma informação do animal se necessário" cols="20"></textarea>
+
+            <br><br>
+            <label for="dias">Dias da semana: </label><br>
+
+            <input type="checkbox" name="seg" id="seg">
+            <label for="">Segunda-Feira</label>
+
+            <input type="checkbox" name="ter" id="ter">
+            <label for="">Terça-Feira</label>
+
+            <input type="checkbox" name="quar" id="quar">
+            <label for="">Quarta-Feira</label>
+
+            <input type="checkbox" name="quin" id="quin">
+            <label for="">Quinta-Feira</label>
+
+            <input type="checkbox" name="sext" id="sext">
+            <label for="">Sexta-Feira</label>
+
+            <input type="checkbox" name="sabado" id="sab">
+            <label for="">Sábado</label>
+
+            <br>
+            <br>
+
+            <label for="">Primeira opção de horário: </label>
+            <input type="date">
+            <br><br>
+            <label for="">Segunda opção de horário: </label>
+            <input type="date">
+            <br>
+        </div>
+        <br>
+        
+        <input type="submit" value="Enviar">
+        
+    </fieldset>
+</form>
+</body>
+</html>
