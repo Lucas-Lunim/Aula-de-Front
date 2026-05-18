@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <style>
+        h1{
+            color: purple;
+            text-align: right;
+            margin-bottom: 0px;
+        }
+        hr{
+            border-color: purple;
+            margin-top: 0px;
+        }
+        img{
+            float: left;
+            border: solid thin red;
+            width: 50px;
+            padding-top: 35px;
+        }
+        form{
+            padding-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dados da conta</h1>
+    <hr>
+
+    <img src="form1_back.jpg" alt="">
+    <form action="">
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="nome">nome</label>
+                <input type="text">
+            </div>
+            <br>
+            <div>
+                <label for="email">email</label>
+                <input type="email">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados da conta</legend>
+            <div>
+                <label for="senha">senha</label>
+                <input type="password">
+            </div>
+            <br>
+            <div>
+                <label for="Frase opcional">Frase opcional</label>
+                <textarea name="" id=""></textarea>
+            </div>
+        </fieldset>
+        <input type="submit" value="enviar"> 
+    </form>
+
+</body>
+</html>
